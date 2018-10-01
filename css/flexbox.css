@@ -1,0 +1,13 @@
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal .cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+.cabecalhoPrincipal .cabecalhoPrincipal-nav a {
+    margin: 0;
+}
