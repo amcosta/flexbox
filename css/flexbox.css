@@ -51,9 +51,17 @@
 
 .videoSobre-sobre {
     display: flex;
-    align-content: space-between;
     flex-direction: column;
-    height: 100%;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.videoSobre-video {
+    width: 50%;
+}
+
+.videoSobre-button {
+    width: 100%;
 }
 
 @media(max-width: 768px) {
