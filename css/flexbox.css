@@ -55,3 +55,50 @@
     flex-direction: column;
     height: 100%;
 }
+
+@media(max-width: 768px) {
+    /*Navbar*/
+    .cabecalhoPrincipal .container {
+        flex-direction: column;
+    }
+
+    .cabecalhoPrincipal .cabecalhoPrincipal-nav {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cabecalhoPrincipal .cabecalhoPrincipal-nav a:last-child {
+        order: -1;
+    }
+
+    /*Cursos*/
+    .conteudoPrincipal-cursos li {
+        width: 100%;
+    }
+
+    .rodapePrincipal-navMap-list {
+        height: auto;
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-patrocinadores .container .rodapePrincipal-patrocinadores-list {
+        width: 100%;
+    }
+
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+    }
+
+    .videoSobre-sobre {
+        text-align: center;
+    }
+
+    .videoSobre-button,
+    .videoSobre-sobre {
+        margin-top: 20px
+    }
+}
